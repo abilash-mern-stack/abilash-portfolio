@@ -9,10 +9,10 @@ const stats = [
 
 export default function About() {
   return (
-    <section id="about" className="section-container bg-white">
+    <section id="about" className="section-container ">
       <div className="text-center mb-12">
         <h2 className="section-title">About Me</h2>
-        <p className="section-subtitle">
+        <p className="section-subtitle ">
           MERN Stack Developer transitioning from Mechanical Engineering to create innovative digital solutions
         </p>
       </div>
@@ -20,17 +20,17 @@ export default function About() {
       <div className="grid lg:grid-cols-2 gap-12 items-start">
         <div className="space-y-6">
           <div className="space-y-4">
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-black font-medium leading-relaxed">
               MERN Stack Web Developer with 6 months of professional experience at AS Global Soft Tech. 
               I specialize in building scalable, role-based enterprise applications using React.js, Node.js, 
               Express.js, and MongoDB.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-black font-medium leading-relaxed">
               My unique background in Mechanical Engineering has equipped me with strong analytical 
               and problem-solving skills. I've successfully transitioned to web development, bringing 
               a systematic approach to building robust, efficient, and user-friendly applications.
             </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-black font-medium leading-relaxed">
               Passionate about creating modern, responsive web interfaces using Tailwind CSS. 
               I thrive in Agile development environments and believe in writing clean, maintainable code 
               that delivers exceptional user experiences while meeting business requirements.

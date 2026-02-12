@@ -96,7 +96,7 @@ export default function Skills() {
     : skills.filter(skill => skill.category === activeCategory)
 
   return (
-    <section id="skills" className="section-container bg-gray-50">
+    <section id="skills" className="section-container ">
       <div className="text-center mb-12">
         <h2 className="section-title">Technical Expertise</h2>
         <p className="section-subtitle">
@@ -235,7 +235,7 @@ export default function Skills() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="https://drive.google.com/file/d/19zUa9NcCuRMRNPQQ0SFFIwRSPiUKiWcC/view?usp=drive_link"
+              href="/public/resume.pdf"
               className="btn-primary flex items-center justify-center gap-3 px-8 py-4"
               target="_blank"
               rel="noopener noreferrer"
@@ -244,7 +244,7 @@ export default function Skills() {
               View Resume
             </a>
             <a
-              href="https://drive.google.com/file/d/19zUa9NcCuRMRNPQQ0SFFIwRSPiUKiWcC/view?usp=drive_link"
+              href="/public/resume.pdf"
               download
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-medium 
                          border-2 border-blue-600 hover:bg-blue-50 

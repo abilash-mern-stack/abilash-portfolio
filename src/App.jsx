@@ -13,7 +13,7 @@ const Footer = lazy(() => import('./components/Footer'))
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen bg-gradient-to-r from-green-300 to-blue-300">
       <Navbar />
       <Suspense fallback={<LoadingSpinner />}>
         <Hero />

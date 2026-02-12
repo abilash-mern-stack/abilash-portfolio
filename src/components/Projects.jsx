@@ -28,7 +28,7 @@ const projects = [
     description: 'Modern, responsive portfolio website built with React 19 and Tailwind CSS v4, featuring optimal performance and SEO.',
     technologies: ['React 19', 'Tailwind CSS v4', 'Vite', 'Responsive'],
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/abilash-mern-stack/abilash-portfolio.git',
     featured: true,
     image: image03
   },
@@ -36,7 +36,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="section-container bg-white">
+    <section id="projects" className="section-container ">
       <div className="text-center mb-12">
         <h2 className="section-title">Featured Projects</h2>
         <p className="section-subtitle">
