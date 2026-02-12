@@ -49,7 +49,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="home" ref={heroRef} className="section-container pt-32 md:pt-40">
+    <section id="home" ref={heroRef} className="section-container pt-32 md:pt-40 "> 
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <div className="space-y-4">
@@ -61,7 +61,7 @@ export default function Hero() {
                 MERN Stack Developer
               </span>
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-xl text-black leading-relaxed font-medium">
               Full Stack Web Developer with 6+ months of professional experience at AS Global Soft Tech.
               Specialist in building scalable, role-based enterprise applications using React.js, Node.js,
               Express.js, and MongoDB. Passionate about creating modern, responsive web interfaces with Tailwind CSS.
@@ -78,7 +78,7 @@ export default function Hero() {
           </div>
 
           <div className="pt-3">
-            <p className="text-gray-600 mb-4">Connect with me</p>
+            <p className="text-black font-bold mb-4">Connect with me</p>
             <div className="flex gap-4">
               {socialLinks.map((link, index) => (
                 <a

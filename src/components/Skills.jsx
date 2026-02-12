@@ -96,7 +96,7 @@ export default function Skills() {
     : skills.filter(skill => skill.category === activeCategory)
 
   return (
-    <section id="skills" className="section-container bg-gray-50">
+    <section id="skills" className="section-container ">
       <div className="text-center mb-12">
         <h2 className="section-title">Technical Expertise</h2>
         <p className="section-subtitle">

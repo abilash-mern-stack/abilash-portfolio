@@ -1,4 +1,4 @@
-/* src/index.css - COMPLETE WORKING VERSION */
+
 @import "tailwindcss";
 
 /* Custom animations */
@@ -134,7 +134,7 @@ body {
 
 .section-subtitle {
   font-size: 1.125rem;
-  color: #4b5563;
+  color: #000000;
   text-align: center;
   max-width: 42rem;
   margin-left: auto;

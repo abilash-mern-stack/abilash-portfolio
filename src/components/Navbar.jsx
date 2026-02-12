@@ -21,17 +21,17 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
+    <nav className={`fixed w-full z-50 transition-all duration-300 shadow-sm  ${
       scrolled 
-        ? 'bg-white/95 backdrop-blur-md shadow-lg py-3' 
-        : 'bg-white/90 backdrop-blur-sm py-4 md:py-6'
+        ? 'bg-gradient-to-r from-green-300 to-blue-300/95 backdrop-blur-md shadow-lg py-3' 
+        : 'bg-gradient-to-r from-green-300 to-blue-300/90 backdrop-blur-sm py-4 md:py-6'
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  ">
         <div className="flex justify-between items-center">
           {/* Logo - Responsive sizing */}
           <a 
             href="#home" 
-            className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent hover:scale-105 transition-transform"
+            className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent hover:scale-105 transition-transform "
           >
             Abilash K
           </a>
@@ -42,7 +42,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors relative group"
+                className="text-black hover:text-blue-600 px-3 py-2 text-sm lg:text-base font-medium transition-colors relative group"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-blue-600 group-hover:w-4/5 transition-all duration-300"></span>
