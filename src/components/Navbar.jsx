@@ -49,7 +49,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://drive.google.com/file/d/19zUa9NcCuRMRNPQQ0SFFIwRSPiUKiWcC/view?usp=drive_link"
+              href="/public/resume.pdf"
               className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-5 py-2.5 lg:px-6 lg:py-3 rounded-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-md hover:shadow-lg flex items-center gap-2 text-sm lg:text-base"
               target="_blank"
               rel="noopener noreferrer"
