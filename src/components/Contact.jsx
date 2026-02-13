@@ -155,7 +155,7 @@ Sent from Portfolio Website
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                  placeholder="Project inquiry or collaboration"
+                  placeholder="Job opportunity, project inquiry, or collaboration"
                 />
               </div>
 
@@ -170,7 +170,8 @@ Sent from Portfolio Website
                   required
                   rows="6"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
-                  placeholder="Tell me about your project requirements, timeline, or any questions you have..."
+                  placeholder="Tell me about your project requirements or any questions you have..."
+
                 />
               </div>
 
