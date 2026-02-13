@@ -41,7 +41,7 @@ export default function About() {
             {stats.map((stat, index) => (
               <div key={index} className="text-center p-4 bg-gray-50 rounded-xl">
                 <div className="text-blue-600 mb-3 flex justify-center">{stat.icon}</div>
-                <div className="text-3xl font-bold text-gray-900">{stat.value}</div>
+                <div className="sm:text-3xl text-2xl font-bold text-gray-900">{stat.value}</div>
                 <div className="text-gray-600 text-sm">{stat.label}</div>
               </div>
             ))}

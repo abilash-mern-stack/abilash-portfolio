@@ -235,7 +235,7 @@ export default function Skills() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="/public/resume.pdf"
+              href="/Resume.pdf"
               className="btn-primary flex items-center justify-center gap-3 px-8 py-4"
               target="_blank"
               rel="noopener noreferrer"
@@ -244,7 +244,7 @@ export default function Skills() {
               View Resume
             </a>
             <a
-              href="/public/resume.pdf"
+              href="/Resume.pdf"
               download
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-medium 
                          border-2 border-blue-600 hover:bg-blue-50 

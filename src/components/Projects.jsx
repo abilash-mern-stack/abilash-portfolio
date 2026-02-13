@@ -27,7 +27,7 @@ const projects = [
     title: 'Portfolio Website',
     description: 'Modern, responsive portfolio website built with React 19 and Tailwind CSS v4, featuring optimal performance and SEO.',
     technologies: ['React 19', 'Tailwind CSS v4', 'Vite', 'Responsive'],
-    liveUrl: '#',
+    liveUrl: 'https://abilash.in/',
     githubUrl: 'https://github.com/abilash-mern-stack/abilash-portfolio.git',
     featured: true,
     image: image03
