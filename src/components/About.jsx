@@ -60,11 +60,11 @@ export default function About() {
                 <p className="text-gray-600">Udaya School of Engineering, Anna University</p>
                 <p className="text-blue-600 text-sm font-medium">Graduated: 2024</p>
               </div>
-              <div className="pt-4 border-t border-blue-100">
+              {/* <div className="pt-4 border-t border-blue-100">
                 <h4 className="font-semibold text-gray-800">Diploma in Mechanical Engineering</h4>
                 <p className="text-gray-600">Udaya Polytechnic College, DOTE</p>
                 <p className="text-blue-600 text-sm font-medium">Completed: 2019</p>
-              </div>
+              </div> */}
             </div>
           </div>
           
