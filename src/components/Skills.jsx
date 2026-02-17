@@ -1,17 +1,17 @@
 // src/components/Skills.jsx
 import { useState } from 'react'
-import { 
-  Code, 
-  Server, 
-  Database, 
-  Palette, 
-  Shield, 
-  GitBranch, 
+import {
+  Code,
+  Server,
+  Database,
+  Palette,
+  Shield,
+  GitBranch,
   Cpu,
   FileCode,
   Lock,
   Zap,
-  Users
+  Users,
 } from 'lucide-react'
 
 const skillCategories = [
@@ -64,19 +64,19 @@ const skills = [
   },
   {
     icon: <FileCode size={24} />,
-    title: 'REST APIs',
+    title: 'RESTful API Development',
     level: 92,
     category: 'backend',
     color: 'from-orange-500 to-yellow-500',
-    description: 'Design & implementation'
+    description: 'Secure API design & integration'
   },
   {
     icon: <Lock size={24} />,
-    title: 'JWT Authentication',
+    title: 'Thunder Client',
     level: 88,
-    category: 'backend',
+    category: 'tools',
     color: 'from-purple-500 to-pink-500',
-    description: 'Secure authentication & authorization'
+    description: 'API testing & request validation'
   },
   {
     icon: <GitBranch size={24} />,
@@ -91,8 +91,8 @@ const skills = [
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState('all')
 
-  const filteredSkills = activeCategory === 'all' 
-    ? skills 
+  const filteredSkills = activeCategory === 'all'
+    ? skills
     : skills.filter(skill => skill.category === activeCategory)
 
   return (
@@ -110,11 +110,10 @@ export default function Skills() {
           <button
             key={category.id}
             onClick={() => setActiveCategory(category.id)}
-            className={`px-6 py-2 rounded-full font-medium transition-all ${
-              activeCategory === category.id
+            className={`px-6 py-2 rounded-full font-medium transition-all ${activeCategory === category.id
                 ? 'bg-blue-600 text-white shadow-md'
                 : 'bg-white text-gray-700 hover:bg-gray-100 shadow-sm'
-            }`}
+              }`}
           >
             {category.name}
           </button>
@@ -134,10 +133,10 @@ export default function Skills() {
               </div>
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">{skill.title}</h3>
-            
+
             {/* Skill Description */}
             <p className="text-sm text-gray-600 mb-3">{skill.description}</p>
-            
+
             {/* Skill Level Bar */}
             <div className="mb-2">
               <div className="flex justify-between text-sm text-gray-600 mb-1">
@@ -145,7 +144,7 @@ export default function Skills() {
                 <span className="font-semibold">{skill.level}%</span>
               </div>
               <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
-                <div 
+                <div
                   className={`h-full bg-gradient-to-r ${skill.color} rounded-full transition-all duration-1000`}
                   style={{ width: `${skill.level}%` }}
                 />

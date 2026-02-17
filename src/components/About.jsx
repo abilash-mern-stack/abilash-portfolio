@@ -13,7 +13,8 @@ export default function About() {
       <div className="text-center mb-12">
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle ">
-          MERN Stack Developer transitioning from Mechanical Engineering to create innovative digital solutions
+          Full Stack Developer specializing in scalable MERN applications and enterprise-grade solutions.
+
         </p>
       </div>
 
@@ -21,22 +22,20 @@ export default function About() {
         <div className="space-y-6">
           <div className="space-y-4">
             <p className="text-lg text-black font-medium leading-relaxed">
-              MERN Stack Web Developer with 6 months of professional experience at AS Global Soft Tech. 
-              I specialize in building scalable, role-based enterprise applications using React.js, Node.js, 
-              Express.js, and MongoDB.
+            Full Stack Developer with professional experience building scalable web applications using 
+            the MERN stack. Experienced in designing secure RESTful APIs, implementing role-based access 
+            control, and developing responsive user interfaces with React.js and Tailwind CSS.
             </p>
             <p className="text-lg text-black font-medium leading-relaxed">
-              My unique background in Mechanical Engineering has equipped me with strong analytical 
-              and problem-solving skills. I've successfully transitioned to web development, bringing 
-              a systematic approach to building robust, efficient, and user-friendly applications.
+              At AS Global Soft Tech, I contributed to enterprise-level applications by delivering end-to-end features, 
+              optimizing database performance, and implementing JWT-based authentication systems.
             </p>
             <p className="text-lg text-black font-medium leading-relaxed">
-              Passionate about creating modern, responsive web interfaces using Tailwind CSS. 
-              I thrive in Agile development environments and believe in writing clean, maintainable code 
-              that delivers exceptional user experiences while meeting business requirements.
+              I bring strong analytical thinking and a structured problem-solving approach to software development, 
+              with a focus on clean architecture, performance optimization, and maintainable code. Passionate about building reliable, user-centric digital products that solve real business problems.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-3 gap-6 pt-6">
             {stats.map((stat, index) => (
               <div key={index} className="text-center p-4 bg-gray-50 rounded-xl">
@@ -47,7 +46,7 @@ export default function About() {
             ))}
           </div>
         </div>
-        
+
         <div className="space-y-6">
           {/* Education Section */}
           <div className="bg-blue-50 p-6 rounded-xl">
@@ -67,7 +66,7 @@ export default function About() {
               </div> */}
             </div>
           </div>
-          
+
           {/* Professional Experience Section */}
           <div className="bg-gray-50 p-6 rounded-xl">
             <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
@@ -81,11 +80,11 @@ export default function About() {
                 <ul className="mt-3 space-y-2">
                   <li className="flex items-start gap-2 text-sm text-gray-700">
                     <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span>Developed responsive web interfaces using Tailwind CSS & React.js</span>
+                    <span>Built responsive and scalable web applications using React.js and Tailwind CSS</span>
                   </li>
                   <li className="flex items-start gap-2 text-sm text-gray-700">
                     <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-1.5 flex-shrink-0"></div>
-                    <span>Built RESTful APIs with Node.js & Express.js</span>
+                    <span>Designed and implemented secure RESTful APIs using Node.js and Express.js</span>
                   </li>
                   <li className="flex items-start gap-2 text-sm text-gray-700">
                     <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-1.5 flex-shrink-0"></div>
@@ -93,8 +92,8 @@ export default function About() {
                   </li>
                 </ul>
               </div>
-              
-              
+
+
             </div>
           </div>
         </div>

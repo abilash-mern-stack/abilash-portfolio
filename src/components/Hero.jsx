@@ -59,20 +59,21 @@ export default function Hero() {
               ABILASH K
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 
                 bg-[length:200%_200%] animate-gradient-x">
-                MERN Stack Developer
+                Full Stack Developer
               </span>
             </h1>
             <p className="text-xl text-black leading-relaxed font-medium animate-fade-in delay-200">
-              Full Stack Web Developer with 6+ months of professional experience at AS Global Soft Tech.
-              Specialist in building scalable, role-based enterprise applications using React.js, Node.js,
-              Express.js, and MongoDB. Passionate about creating modern, responsive web interfaces with Tailwind CSS.
+              I specialize in building scalable and secure web applications using the MERN stack. 
+              With hands-on experience in developing RESTful APIs, implementing authentication systems, 
+              and designing responsive user interfaces, I focus on delivering clean, maintainable, 
+              and performance-driven digital solutions.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4">
             <a href="#projects" className="btn-primary flex items-center gap-2 
                 transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              View My Work <ArrowRight size={20} />
+              View Projects <ArrowRight size={20} />
             </a>
             <a href="#contact" className="btn-secondary">
               Let's Connect
