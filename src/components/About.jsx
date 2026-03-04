@@ -22,17 +22,18 @@ export default function About() {
         <div className="space-y-6">
           <div className="space-y-4">
             <p className="text-lg text-black font-medium leading-relaxed">
-            Full Stack Developer with professional experience building scalable web applications using 
-            the MERN stack. Experienced in designing secure RESTful APIs, implementing role-based access 
-            control, and developing responsive user interfaces with React.js and Tailwind CSS.
+             MERN Stack Developer with hands-on internship experience in building scalable full-stack web applications.
+             Proficient in MongoDB, Express.js, React.js, and Node.js (MERN stack). 
+             Experienced in developing RESTful APIs, implementing JWT authentication, role-based access control (RBAC), 
+             and integrating secure backend services.
             </p>
             <p className="text-lg text-black font-medium leading-relaxed">
-              At AS Global Soft Tech, I contributed to enterprise-level applications by delivering end-to-end features, 
-              optimizing database performance, and implementing JWT-based authentication systems.
+              Built responsive and performance-optimized user interfaces using React.js and Tailwind CSS. Strong understanding of database design, 
+              API development, authentication, and clean architecture principles. Passionate about writing maintainable, 
+              efficient code and delivering user-centric, business-driven solutions.
             </p>
             <p className="text-lg text-black font-medium leading-relaxed">
-              I bring strong analytical thinking and a structured problem-solving approach to software development, 
-              with a focus on clean architecture, performance optimization, and maintainable code. Passionate about building reliable, user-centric digital products that solve real business problems.
+              
             </p>
           </div>
 
@@ -70,13 +71,13 @@ export default function About() {
           {/* Professional Experience Section */}
           <div className="bg-gray-50 p-6 rounded-xl">
             <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <Briefcase size={20} /> Professional Experience
+              <Briefcase size={20} /> Internship Experience
             </h3>
             <div className="space-y-6">
               <div>
-                <h4 className="font-semibold text-gray-800">Full Stack Developer (MERN)</h4>
+                <h4 className="font-semibold text-gray-800">Full Stack Developer Intern (MERN)</h4>
                 <p className="text-gray-600">AS Global Soft Tech</p>
-                <p className="text-blue-600 text-sm font-medium">6 Months (Full-time)</p>
+                <p className="text-blue-600 text-sm font-medium">August 2025 – December 2025</p>
                 <ul className="mt-3 space-y-2">
                   <li className="flex items-start gap-2 text-sm text-gray-700">
                     <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-1.5 flex-shrink-0"></div>

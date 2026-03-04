@@ -63,10 +63,9 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-xl text-black leading-relaxed font-medium animate-fade-in delay-200">
-              I specialize in building scalable and secure web applications using the MERN stack. 
-              With hands-on experience in developing RESTful APIs, implementing authentication systems, 
-              and designing responsive user interfaces, I focus on delivering clean, maintainable, 
-              and performance-driven digital solutions.
+              Full Stack Developer (MERN) with hands-on internship experience in real-time projects.
+              I build scalable and secure web applications using MongoDB, Express.js, React.js, and Node.js,
+               with experience in RESTful APIs, JWT authentication, and responsive UI development.
             </p>
           </div>
 
