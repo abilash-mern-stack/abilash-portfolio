@@ -77,7 +77,7 @@ export default function About() {
               <div>
                 <h4 className="font-semibold text-gray-800">Full Stack Developer Intern (MERN)</h4>
                 <p className="text-gray-600">AS Global Soft Tech</p>
-                <p className="text-blue-600 text-sm font-medium">August 2025 – December 2025</p>
+                <p className="text-blue-600 text-sm font-medium">August 2025 – January 2026</p>
                 <ul className="mt-3 space-y-2">
                   <li className="flex items-start gap-2 text-sm text-gray-700">
                     <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mt-1.5 flex-shrink-0"></div>
